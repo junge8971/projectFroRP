@@ -1,0 +1,276 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 235,
+            "type": "VEC3",
+            "max": [
+                200.0,
+                201.0,
+                5.284809589385986
+            ],
+            "min": [
+                -200.0,
+                -201.0,
+                -3.1725029945373535
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 235,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 235,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                0.8511165976524353
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 572,
+            "type": "SCALAR",
+            "max": [
+                234
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 201457,
+            "type": "VEC3",
+            "max": [
+                200.0,
+                201.0,
+                14.392157554626465
+            ],
+            "min": [
+                -200.0,
+                -201.0,
+                -14.392157554626465
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 201457,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 201457,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 502878,
+            "type": "SCALAR",
+            "max": [
+                201456
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 8467944,
+            "uri": "logo-cropped_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2820,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2820,
+            "byteLength": 2820,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5640,
+            "byteLength": 1880,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7520,
+            "byteLength": 2288,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9808,
+            "byteLength": 2417484,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2427292,
+            "byteLength": 2417484,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4844776,
+            "byteLength": 1611656,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6456432,
+            "byteLength": 2011512,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Default Material",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.4019777774810791,
+                    0.4019777774810791,
+                    0.4019777774810791,
+                    1.0
+                ],
+                "metallicFactor": 0.30000001192092896,
+                "roughnessFactor": 0.44999998807907104
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 1,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                },
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 7,
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "logo-cropped",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "nodes[0]",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "wrapS": 33071,
+            "wrapT": 33071,
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
